@@ -1,0 +1,30 @@
+<header class="header">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#acxiom-navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Déplier la navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- <a class="navbar-brand" href="#">
+                    <img alt="Brand" src="images/acxiom__brand.png" width="110" height="26">
+                </a> -->
+            </div>
+
+            <div class="collapse navbar-collapse" id="acxiom-navbar-collapse">
+                <div class="navbar-left">
+                    <ul class="nav navbar-nav">
+                        <li class="{% if pageData.nav.home %}active{% endif %}"><a href="index.html">Accueil</a></li>
+                        <li class="{% if pageData.nav.face %}active{% endif %}"><a href="#">Soins visage</a></li>
+                        <li class="{% if pageData.nav.body %}active{% endif %}"><a href="body.html">Soins corps & massage</a></li>
+                        <li class="{% if pageData.nav.waxing %}active{% endif %}"><a href="#">Epilations</a></li>
+                        <li class="{% if pageData.nav.nail %}active{% endif %}"><a href="#">Soins ongles & maquillage</a></li>
+                        <li class="{% if pageData.nav.contact %}active{% endif %}"><a href="#">Contact & informations</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>

@@ -1,0 +1,6 @@
+.news-tile {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 14px;
+  background-color: var(--brand-lighter);
+}

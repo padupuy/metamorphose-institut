@@ -1,0 +1,13 @@
+{% macro row(name, value, time) %}
+<div class="row">
+    <div class="col-md-10">
+        {{ name }}
+    </div>
+    <div class="col-md-1">
+        {{ time }}
+    </div>
+    <div class="col-md-1">
+        {{ value | escape }}
+    </div>
+</div>
+{% endmacro %}

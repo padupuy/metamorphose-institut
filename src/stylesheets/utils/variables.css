@@ -1,0 +1,25 @@
+:root {
+  --gray-base: #575757;
+  --gray-darker: #2c3033;
+  --gray-dark: #1f1f1f;
+  --gray-light: #f7f7f7;
+  --gray-lighter: #fcfcfc;
+
+  --brand-primary: #4dc375;
+  --brand-lighter: #a4dbb3;
+  --brand-darker: #3d9b5d;
+
+  --offwhite-base: #fbf2e7;
+  --white: #fff;
+
+  --gutter: 20px;
+
+  --font: 'arial', 'sans-serif';
+  --font-brand: 'flexoregular', 'helvetica', 'arial', 'sans-serif';
+
+  --navbar-height: 55px;
+
+  @custom-media --screen-sm (width >= 768px);
+  @custom-media --screen-md (width >= 992px);
+  @custom-media --screen-lg (width >= 1200px);
+}

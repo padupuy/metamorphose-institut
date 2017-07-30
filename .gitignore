@@ -1,0 +1,28 @@
+# Build
+public
+
+# Node
+node_modules
+
+# Eclipse
+/.metadata
+/.settings
+/.project
+/.buildpath
+/.classpath
+
+# Sublime
+/.sublime-project
+/.sublime-workspace
+
+# Netbeans
+/nbproject
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Rubymine
+/.idea

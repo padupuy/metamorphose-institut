@@ -1,0 +1,18 @@
+{
+  "name": "acxiom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "blendid": "^4.1.1",
+    "bootstrap": "^3.3.7",
+    "gulp-postcss": "^7.0.0",
+    "jquery": "^3.2.1",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^10.0.0",
+    "postcss-nested": "^2.0.4"
+  },
+  "jshintConfig": {
+    "esversion": 6
+  }
+}
