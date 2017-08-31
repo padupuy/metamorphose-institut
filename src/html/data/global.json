@@ -1,3 +1,66 @@
 {
-  "brand": "Acxiom"
+  "brand": "Acxiom",
+  "bodyPrices": [
+    {
+      "name": "GOMMAGE CORPS",
+      "time": "30min",
+      "price": "35 €"
+    },
+    {
+      "name":
+        "MODELAGE MINCEUR / G5 CELLUTEC / TECHNISPA / PRESSOTHÉRAPIE-CRYOTHÉRAPIE",
+      "time": "30min",
+      "price": "35 €"
+    },
+    {
+      "name": "MASSAGE RELAX",
+      "time": "30min",
+      "price": "35 €"
+    },
+    {
+      "name": "AYURVÉDIQUE",
+      "time": "30min",
+      "price": "35 €"
+    },
+    {
+      "name": "MASSAGE FUTURE MAMAN",
+      "time": "30min",
+      "price": "35 €"
+    },
+    {
+      "name": "MASSAGE DUO",
+      "time": "30min",
+      "price": "35 €"
+    },
+    {
+      "name": "RÉFLEXOLOGIE PLANTAIRE THAÏE",
+      "time": "30min",
+      "price": "35 €"
+    },
+    {
+      "name": "MASSAGE / SOIN VISAGE SPÉCIFIQUE",
+      "time": "30min",
+      "price": "35 €"
+    },
+    {
+      "name": "GOMMAGE / MASSAGE",
+      "time": "30min",
+      "price": "35 €"
+    },
+    {
+      "name": "GOMMAGE / MASSAGE / SOIN VISAGE",
+      "time": "30min",
+      "price": "35 €"
+    },
+    {
+      "name": "GOMMAGE /ENVELOPPEMENT",
+      "time": "30min",
+      "price": "35 €"
+    },
+    {
+      "name": "GOMMAGE / ENVELOPPEMENT / MASSAGE",
+      "time": "30min",
+      "price": "35 €"
+    }
+  ]
 }

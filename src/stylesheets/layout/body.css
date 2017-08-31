@@ -1,0 +1,15 @@
+.header-wrapper {
+  &.header-body {
+    background-image: url(/images/background-body-header.jpg);
+  }
+}
+.body {
+  .row-bg {
+    &.massage {
+      background-image: url(/images/background-body-massage.jpg);
+    }
+    &.reflexologie {
+      background-image: url(/images/background-body-reflexologie.jpg);
+    }
+  }
+}

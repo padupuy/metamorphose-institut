@@ -1,22 +1,21 @@
 {% set pageData = { title: 'Soins corps & massage', nav: {body: true} } %} {% extends 'layouts/application.html' %} {% import
 'layouts/row-price.html' as rowPrice %} {% block header %}
-<div class="header-wrapper">
+<div class="header-wrapper header-body">
     {% include "layouts/header.html" %}
     <div class="container">
         <div class="row">
-            <!-- <div class="col-md-4 col-md-push-8"> -->
-            <div class="col-md-7">
-                <h1>
+            <div class="col-md-7 text-center">
+                <h1 class="text-left">
                     Soins corps,
                     <br/>Soins amincissants
                 </h1>
-                <button class="btn btn-primary center-block">Tarifs</button>
+                <a href="#" title="" class="btn btn-secondary">Tarifs</a>
             </div>
         </div>
     </div>
 </div> {% endblock %} {% block content %}
-<div class="container">
-    <div class="row">
+<div class="container main-container body">
+    <div class="row row-section">
         <div class="col-md-6">
             <h3>Gommage corps</h3>
             <p>
@@ -27,10 +26,10 @@
             </p>
         </div>
         <div class="col-md-6">
-            <img alt="illustration à propos" src="images/home-cumcumber.jpg" width="475" height="295">
+            <img alt="illustration à propos" src="images/body-gommage.jpg" width="475" height="294">
         </div>
     </div>
-    <div class="row">
+    <div class="row row-section">
         <div class="col-md-12">
             <h3>TechniSPA® Advanced System Minceur Anti-Cellulite</h3>
             <p>
@@ -39,25 +38,25 @@
             </p>
         </div>
         <div class="col-md-12">
-            <div class="row">
-                <div class="col-md-4">
-                    <img alt="illustration à propos" src="images/home-service-face.jpg" width="218" height="218">
+            <div class="row row-section media">
+                <div class="col-md-4 media-item">
+                    <img alt="illustration à propos" src="images/body-spa.jpg" width="217" height="217">
                     <h3 class="">Double Dermo Lipo-Aspiration</h3>
                     <p class="">
                         En un seul mouvement technique, la poignée de modelage effectue deux actions minceur. La peau est mobilisée par lipo-aspiration
                         en deux plis cutanés qui doublent son efficacité pour le même temps de soin. Système breveté.
                     </p>
                 </div>
-                <div class="col-md-4">
-                    <img alt="illustration à propos" src="images/home-service-face.jpg" width="218" height="218">
+                <div class="col-md-4 media-item">
+                    <img alt="illustration à propos" src="images/body-spa2.jpg" width="217" height="217">
                     <h3 class="">Double Ionisation Minceur</h3>
                     <p class="">
                         La technique de double ionisation permet d'augmenter la pénétration et la diffusion des actifs minceur contenus dans les
                         ACTISERUMS et ainsi augmenter la performance du soin.
                     </p>
                 </div>
-                <div class="col-md-4">
-                    <img alt="illustration à propos" src="images/home-service-face.jpg" width="218" height="218">
+                <div class="col-md-4 media-item">
+                    <img alt="illustration à propos" src="images/body-spa3.jpg" width="217" height="217">
                     <h3 class="">Effet Thermique Minceur</h3>
                     <p class="">
                         Un dispositif de diffusion de chaleur permettant de fluidifier les graisses à la surface de la peau et d'augmtenter la microcirculation
@@ -67,11 +66,11 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-4">
-            <img alt="illustration à propos" src="images/home-cumcumber.jpg" width="475" height="295">
+    <div class="row row-section">
+        <div class="col-md-6">
+            <img alt="illustration à propos" src="images/body-celutec.jpg" width="375" height="475">
         </div>
-        <div class="col-md-8">
+        <div class="col-md-6">
             <h3>G5 Celutec</h3>
             <p>
                 Résultats rapides etvisibles dès la 1ère séance.Retrouvez rapidement une sensa on de légèreté. Cel lutec est une techniqued'amincisementparpercusionetvibra
@@ -82,12 +81,14 @@
                 <li>
                     de mobiliser et de caser les amas graisseux, - de désengorger les tissus - des stimuler la circulatioon sanguine et lymphaphatique
                 </li>
-                <li>de frictioonner et d'améliorer la qualité de la peau (effet tenseur)</li>
+                <li>
+                    de frictioonner et d'améliorer la qualité de la peau (effet tenseur)
+                </li>
             </ul>
         </div>
     </div>
     <div class="row">
-        <div class="col-md-12 row-bg">
+        <div class="col-md-12 row-bg massage">
             <div class="row">
                 <div class="col-md-5 pull-right">
                     <h2>Massages</h2>
@@ -96,7 +97,7 @@
             </div>
         </div>
     </div>
-    <div class="row">
+    <div class="row row-section">
         <div class="col-md-12">
             <p>
                 Le massage est un art, il apporte bien être, vitalité et soutient mental. Un art que nous voulons vous faire découvrir avec
@@ -104,8 +105,8 @@
             </p>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-6">
+    <div class="row row-section">
+        <div class="col-md-5">
             <h3>Massage relaxant</h3>
             <p>
                 Il a pour but d'éliminer toutes les tensions musculaires et psychiques que l'on peut accumuler au cour de notre parcours,
@@ -119,15 +120,15 @@
                 des toxines et facilite la circulation sanguine et lymphatique.
             </p>
         </div>
-        <div class="col-md-6">
-            <img alt="illustration à propos" src="images/home-cumcumber.jpg" width="475" height="295">
+        <div class="col-md-7">
+            <img alt="illustration à propos" src="images/body-massage-relaxant.jpg" width="540" height="436">
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-6">
-            <img alt="illustration à propos" src="images/home-cumcumber.jpg" width="475" height="295">
+    <div class="row row-section">
+        <div class="col-md-7">
+            <img alt="illustration à propos" src="images/body-massage-sportif.jpg" width="547" height="435">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-5">
             <h3>Massage sportif</h3>
             <p>
                 Le Massage sportif favorise la récupération en évacuant les toxines qui se forment pendant l'effort physique, il prévient
@@ -143,7 +144,7 @@
             </p>
         </div>
     </div>
-    <div class="row">
+    <div class="row row-section">
         <div class="col-md-12">
             <h3 class="text-center">Bonus : Réflexologie plantaire Thaïe</h3>
         </div>
@@ -155,12 +156,12 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-12 row-bg">
+        <div class="col-md-12 row-bg reflexologie">
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-12">
-            <h2>Les tarifs</h2>
+    <div class="row row-section">
+        <div class="col-md-8 col-md-push-2">
+            <h2>Tarifs</h2>
             {{ rowPrice.row('GOMMAGE CORPS', value='35€', time='30mn') }} {{ rowPrice.row('GOMMAGE CORPS', value='35€', time='30mn')
             }} {{ rowPrice.row('GOMMAGE CORPS', value='35€', time='30mn') }} {{ rowPrice.row('GOMMAGE CORPS', value='35€',
             time='30mn') }} {{ rowPrice.row('GOMMAGE CORPS', value='35€', time='30mn') }} {{ rowPrice.row('GOMMAGE CORPS',

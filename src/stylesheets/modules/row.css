@@ -1,4 +1,11 @@
 .row-bg {
   height: 220px;
   background-color: var(--brand-lighter);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.row-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }

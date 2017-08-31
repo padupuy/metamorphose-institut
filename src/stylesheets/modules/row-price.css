@@ -1,0 +1,48 @@
+.row-price {
+  padding: 0.5em 0;
+
+  & > * {
+    padding: 0.5em 0;
+  }
+
+  .row-price-name {
+    text-transform: uppercase;
+
+    span {
+      display: block;
+      position: relative;
+      z-index: 0;
+
+      &:before {
+        background-color: var(--brand-lighter);
+        content: '';
+        position: absolute;
+        height: 4em;
+        width: 40%;
+        left: -1em;
+        margin-top: 50%;
+        z-index: -1;
+        bottom: 50%;
+        transform: translate3d(-0, 50%, 0);
+      }
+      &:after {
+        background-color: var(--brand-primary);
+        content: '';
+        display: inline-block;
+        height: 1px;
+        position: relative;
+        width: 60%;
+        left: 10%;
+        margin-right: -50%;
+      }
+    }
+  }
+  .row-price-time {
+    text-align: center;
+  }
+  .row-price-value {
+    background-color: var(--brand-primary);
+    color: white;
+    text-align: center;
+  }
+}

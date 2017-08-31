@@ -1,10 +1,16 @@
 .btn {
-  border-radius: 0;
+  border-radius: 3px;
+  padding: 0.5em 2em;
 }
 .btn-primary {
   background-color: var(--brand-primary);
   border-color: var(--brand-primary);
 }
+.btn-secondary {
+  color: white;
+  background-color: black;
+}
+
 .btn-primary:focus,
 .btn-primary.focus,
 .btn-primary:hover,

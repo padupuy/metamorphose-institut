@@ -1,0 +1,9 @@
+.form-control {
+  border: 1px solid var(--brand-lighter);
+  border-radius: 0;
+  box-shadow: none;
+}
+
+label {
+  color: var(--brand-lighter);
+}

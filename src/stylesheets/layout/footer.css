@@ -4,4 +4,8 @@
 
 .footer {
   background-color: var(--brand-primary);
+
+  .important {
+    color: white;
+  }
 }

@@ -9,8 +9,13 @@
 /* layout */
 @import 'layout/header.css';
 @import 'layout/footer.css';
+@import 'layout/form.css';
+@import 'layout/homepage.css';
+@import 'layout/body.css';
 
 /* modules */
 @import 'modules/row.css';
 @import 'modules/button.css';
 @import 'modules/news.css';
+@import 'modules/media.css';
+@import 'modules/row-price.css';
