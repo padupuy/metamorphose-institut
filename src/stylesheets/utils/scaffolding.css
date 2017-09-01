@@ -20,6 +20,9 @@ h1,
 h2,
 h3 {
   color: var(--brand-primary);
+}
+h1,
+h2 {
   font-family: 'maneo', 'arial', 'sans-serif';
 }
 h1 {

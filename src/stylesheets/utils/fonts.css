@@ -8,7 +8,11 @@
 @font-face {
   font-family: 'maneo';
   src: url('../fonts/Maneo_TRIAL.otf') format('otf'),
-    url('../fonts/Maneo_TRIAL.ttf') format('ttf');
+    url('../fonts/Maneo_TRIAL.ttf') format('ttf'),
+    url('../fonts/Maneo_TRIAL.eot') format('eot'),
+    url('../fonts/ManeoTRIAL.svg') format('svg'),
+    url('../fonts/ManeoTRIAL.woff') format('woff'),
+    url('../fonts/ManeoTRIAL.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
