@@ -67,3 +67,15 @@ window.fbAsyncInit = function() {
   js.src = '//connect.facebook.net/fr_FR/sdk.js';
   fjs.parentNode.insertBefore(js, fjs);
 })(document, 'script', 'facebook-jssdk');
+
+window.initMap = function initMap() {
+  const metamorphoseLocation = { lat: 45.8006204, lng: 4.825992 };
+  const map = new google.maps.Map(document.getElementById('google-maps'), {
+    zoom: 15,
+    center: metamorphoseLocation
+  });
+  const marker = new google.maps.Marker({
+    position: metamorphoseLocation,
+    map: map
+  });
+};
