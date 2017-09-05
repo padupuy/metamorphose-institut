@@ -9,3 +9,11 @@
     color: white;
   }
 }
+
+@media (--mobile) {
+  .footer {
+    .logo {
+      width: 100%;
+    }
+  }
+}

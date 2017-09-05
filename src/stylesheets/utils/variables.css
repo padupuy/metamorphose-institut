@@ -19,6 +19,7 @@
 
   --navbar-height: 55px;
 
+  @custom-media --mobile (width < 768px);
   @custom-media --screen-sm (width >= 768px);
   @custom-media --screen-md (width >= 992px);
   @custom-media --screen-lg (width >= 1200px);

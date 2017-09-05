@@ -46,3 +46,20 @@
     text-align: center;
   }
 }
+
+@media (--mobile) {
+  .row-price {
+    padding: 0.5em;
+    border-bottom: 1px solid var(--brand-primary);
+
+    &:nth-child(odd) {
+      background-color: var(--brand-lighter);
+    }
+    .row-price-name span {
+      &:before,
+      &:after {
+        content: none;
+      }
+    }
+  }
+}

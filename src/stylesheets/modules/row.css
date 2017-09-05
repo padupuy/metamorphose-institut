@@ -9,3 +9,9 @@
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+@media (--mobile) {
+  .row-section {
+    padding: 10px 0;
+  }
+}

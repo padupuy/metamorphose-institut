@@ -104,3 +104,12 @@
     height: 600px;
   }
 }
+@media (--mobile) {
+  .header-wrapper {
+    .logo {
+      top: -4px;
+      width: 260px;
+      left: 10px;
+    }
+  }
+}

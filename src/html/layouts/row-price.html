@@ -1,12 +1,12 @@
 {% macro row(name, value, time) %}
 <div class="row row-price">
-    <div class="col-md-8 row-price-name">
+    <div class="col-xs-8 col-md-8 row-price-name">
         <span>{{ name }}</span>
     </div>
-    <div class="col-md-2 row-price-time">
+    <div class="col-xs-2 col-md-2 row-price-time">
         <span>{{ time }}</span>
     </div>
-    <div class="col-md-2 row-price-value">
+    <div class="col-xs-2 col-md-2 row-price-value">
         <span>{{ value | escape }}</span>
     </div>
 </div>

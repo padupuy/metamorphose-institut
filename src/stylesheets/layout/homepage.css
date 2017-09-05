@@ -42,3 +42,30 @@
     }
   }
 }
+
+@media (--mobile) {
+  .header-homepage {
+    p,
+    a {
+      margin-bottom: 1em;
+    }
+  }
+  .homepage {
+    .about {
+      p {
+        margin: 1em;
+      }
+    }
+    .news .news-item .news-tile {
+      opacity: 1;
+    }
+    .services-title-wrapper {
+      margin-top: 0;
+      margin-bottom: 0;
+
+      .services-title {
+        padding: 0;
+      }
+    }
+  }
+}

@@ -15,3 +15,13 @@
     }
   }
 }
+
+@media (--mobile) {
+  .media {
+    display: block;
+    text-align: center;
+  }
+  .media-item {
+    margin-bottom: 1em;
+  }
+}

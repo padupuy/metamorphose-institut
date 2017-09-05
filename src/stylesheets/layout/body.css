@@ -13,3 +13,20 @@
     }
   }
 }
+
+@media (--mobile) {
+  .header-body {
+    a {
+      margin-bottom: 1em;
+    }
+  }
+
+  .body {
+    .massage {
+      .pull-right {
+        float: none !important;
+        text-align: center;
+      }
+    }
+  }
+}
