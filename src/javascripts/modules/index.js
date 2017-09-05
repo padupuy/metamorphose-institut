@@ -10,20 +10,23 @@ function displayLastNewsFromFb(response) {
         month: 'long',
         day: 'numeric'
       });
+      let content = article.message || '';
+      content = content.length > 190 ? `${content.substr(0, 187)}...` : content;
 
       html.push(`
       <div class="news-item">
+        <img src="${article.full_picture}" />
         <div class="news-tile">
           <a href="${article.permalink_url}">
-            <img src="${article.full_picture}" />
-            <p>publié le ${date}</p>
-          </a>
+              <p class="news-date text-secondary">publié le ${date}</p>
+              <p class="news-content text-secondary">${content}</p>
+            </a>
         </div>
       </div>
       `);
     });
 
-    news.innerHTML = html.concat('');
+    news.innerHTML = html.join('');
   }
 }
 

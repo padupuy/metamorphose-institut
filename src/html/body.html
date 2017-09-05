@@ -162,10 +162,8 @@
     <div class="row row-section">
         <div class="col-md-8 col-md-push-2">
             <h2>Tarifs</h2>
-            {{ rowPrice.row('GOMMAGE CORPS', value='35€', time='30mn') }} {{ rowPrice.row('GOMMAGE CORPS', value='35€', time='30mn')
-            }} {{ rowPrice.row('GOMMAGE CORPS', value='35€', time='30mn') }} {{ rowPrice.row('GOMMAGE CORPS', value='35€',
-            time='30mn') }} {{ rowPrice.row('GOMMAGE CORPS', value='35€', time='30mn') }} {{ rowPrice.row('GOMMAGE CORPS',
-            value='35€', time='30mn') }} {{ rowPrice.row('GOMMAGE CORPS', value='35€', time='30mn') }}
+            {% for item in bodyPrices %} {% block item %} {{ rowPrice.row(item.name, item.price, item.time) }} {% endblock %} {% endfor
+            %}
         </div>
     </div>
 </div>
