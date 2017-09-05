@@ -24,6 +24,9 @@ install:
 script:
   - npm run build
 
+before_deploy:
+ - tar -zcvf release-$(date +%Y-%m-%d).tar.gz public
+
 deploy:
   - provider: firebase
     token:
@@ -33,6 +36,6 @@ deploy:
     api_key:
       secure: CnXs1SqJi9C4sbhxC/PVk5KA914GwQRyEmI7ae1ZBVBl5B5bsPw6twkyQ+MEYDDiNi8ZAxKdh6hDA5fAKLS0xCRxq1TPAn6MfDepIf5kqEUqCRIA7wO7Md7wdPSzK+0G39UaNqvVKDLKuUXFQdkcew3y5PVjcXqj6T3oxkt/JUdSlTg8qInn8xLHKE3UdDH4iSRZUz+yGBT0k0cPsf+5MW2qm6lOrUivLtmIHB/5wRKfKQnUgofHzSebghO0zXySvYUiuwM1Ds2nZ6KRMm2ypxtefsSPakQ5AICo3O/FP61s+HDNIMsTLV79L8qfkH4SRMuIepO3ISbT94qjPhTYfoNAFFzFLa1d1PX+MrzDAdIHBTIdABgfUxdFVJ7Q72KfRpy42d11fAYz73fn876TeDw9CwFLphMnwLKNR3f+PlJU56kbFgi/QLZvBu2MiDo4m4Cfh48y0vBWURI9wTeeFVfyliXngp9O5spMBKiUnYldo3VGny1V5W7TMIgrkmvEDH/S8eqrpLbR9020EvJii/QUvKgQL6XThFJj2UU3enrRZtQw7/MVB+j0n66RU53mQNfIID4zVKz9movkEaMHG2N6L+ljbg753zsHs6wyEwZncjEJeLpaY2FwRjtXSOMRTdsfbibUdrq3/laH9uDkBqeulWl/Z8znoMCTzDH71zc=
     file_glob: true
-    file: public/**/*
+    file: *.tar.gz
     skip_cleanup: true
     tag: next
