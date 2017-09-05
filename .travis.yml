@@ -36,5 +36,3 @@ deploy:
     file: public/*
     skip_cleanup: true
     tag: next
-    on:
-      tags: true
