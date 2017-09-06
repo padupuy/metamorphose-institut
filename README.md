@@ -1,3 +1,6 @@
+# Metamorphose [![Build Status](https://travis-ci.org/padupuy/metamorphose-institut.svg?branch=master)](https://travis-ci.org/padupuy/metamorphose-institut)
+Site web de l'institut Métamorphose Lyon 9.
+
 ## Setup
 L'environnement de développement front est basé sur le boilerplate Blendid (anciennement connu sous le nom de Gulp Starter).
 
